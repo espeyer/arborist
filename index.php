@@ -2,9 +2,10 @@
 <body>
 This is the website for the aroborist.
 <?php 
-	$variable = "Kent Holcomb"
+	$variable = "Kent Holcomb";
 	echo "<br />";
-	echo "This is a website for" . $variable . ".";
+	echo "This is a website for " . $variable . ".";
 	echo "<br />";
 ?>
+</body>
 <?php include("footer.php"); ?>
