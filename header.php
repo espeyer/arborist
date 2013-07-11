@@ -15,8 +15,5 @@
 <body>
 <div id="content-wrap" class="group">
   <div id="content" class="group">
-    <div class="logo"><img src="images/oak-logo2.png" /></div>
-    <div class="logo"><img src="images/oak-logo.png" /></div>
     <div class="logo"><img src="images/oak-logo3.png" /></div>
-    <div class="logo"><img src="images/oak-logo3.svg" /></div>
-    <h1>Holcomb Tree Experts</h1>
+      <div class="clearBoth" /></div>
