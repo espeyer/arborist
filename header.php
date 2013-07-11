@@ -18,4 +18,5 @@
     <div class="logo"><img src="images/oak-logo2.png" /></div>
     <div class="logo"><img src="images/oak-logo.png" /></div>
     <div class="logo"><img src="images/oak-logo3.png" /></div>
+    <div class="logo"><img src="images/oak-logo3.svg" /></div>
     <h1>Holcomb Tree Experts</h1>
