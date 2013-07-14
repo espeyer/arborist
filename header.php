@@ -15,5 +15,5 @@
 <body>
 <div id="content-wrap" class="group">
   <div id="content" class="group">
-    <div class="logo"><img src="images/oak-logo3.png" /></div>
+    <div class="logo"><img src="images/oak-logo.png" /></div>
       <div class="clearBoth" /></div>

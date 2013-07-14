@@ -1,14 +1,14 @@
 body {
-  background-color: #E6E59F;
+  background-color: #ffffec;
 }
 
 #content-wrap {
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 
 #content {
-  background-color: #ffffd6;
+  /* background-color: #ffffd6; */
   padding: 6px;
   margin-top: 80px;
   /* border-style: solid;
@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-  float: right;
+  float: left;
 }
 
 .clearBoth {
