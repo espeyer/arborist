@@ -1,5 +1,6 @@
 body {
   background-color: #ffffec;
+  font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
 }
 
 #content-wrap {
@@ -15,10 +16,68 @@ body {
   border-width: 1px; */
 }
 
-.logo {
+.logo-wrap {
+  width: 138px;
   float: left;
+  margin-right: 100px;
+}
+
+#slides {
+  width: 700px;
+  height: 393px;
+}
+
+.logo {
+  
 }
 
 .clearBoth {
   clear: both;
+}
+
+p {
+  font-size: 0.795em;
+}
+
+.italics {
+  font-style: oblique;
+}
+
+#contact-home {
+  float: right;
+  padding; 8px;
+  position: absolute;
+  right: 100px;
+  top: 8px;
+}
+
+.slide-box {
+}
+  
+#footer {
+  background-color: #7a7a7a;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-content {
+  text-align: center;
+  padding: 3px 3px;
+  line-height: 200%;
+  width: 75%;
+  color: #ffffec;
+  margin: auto;
+}
+
+p.footer-left {
+  float: left;
+  padding-left: 14px;
+}
+
+p.footer-right {
+  float: right;
+  padding-right: 14px;
 }

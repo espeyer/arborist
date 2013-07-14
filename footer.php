@@ -2,8 +2,9 @@
   </div>
 </div>
 <div id="footer">
-  <div id="footer-content">
-    <div id="center">&copy; 2013 Danny and Erik All Rights Reserved.</div>
+  <div class="footer-content">
+    <p class="footer-left">&copy; 2013 Danny and Erik All Rights Reserved. </p>
+    <p class="footer-right">Holcomb Tree Experts 7105 Martin Mill Pike Knoxville, TN 37920 | (865) 577-3830</p>
   </div>
 </div>
 </body>

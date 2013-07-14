@@ -16,15 +16,15 @@
 <script>
     $(function(){
       $("#slides").slidesjs({
-        width: 940,
-        height: 528
+        width: 700,
+        height: 393
       });
     });
   </script>
+
 </head>
 <!-- END HEADER -->
 <body>
 <div id="content-wrap" class="group">
   <div id="content" class="group">
-    <div class="logo"><img src="images/oak-logo.png" /></div>
-      <div class="clearBoth" /></div>
+    
