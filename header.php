@@ -10,6 +10,9 @@
 <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
 
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+
 </head>
 <!-- END HEADER -->
 <body>
