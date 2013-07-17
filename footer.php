@@ -1,6 +1,6 @@
 <!-- BEGIN FOOTER -->
-  </div>
-</div>
+  </div> <!-- END CONTENT> -->
+</div> <!-- END CONTENT-WRAP -->
 <div id="footer">
   <div class="footer-content">
     <p class="footer-left">&copy; 2013 Danny and Erik All Rights Reserved. </p>
