@@ -1,4 +1,32 @@
-<?php include("header.php"); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link href="css/reset.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+
+<script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 700,
+        height: 393
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+<div id="content-wrap" class="group">
+  <div id="content" class="group">
+    
 <div class="logo-wrap">
   <div class="logo">
     <a href="/"><img src="images/oak-logo.png" /></a>
@@ -23,4 +51,15 @@
   <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </div>
 
-<?php include("footer.php"); ?>
+<!-- BEGIN FOOTER -->
+  </div> <!-- END CONTENT> -->
+</div> <!-- END CONTENT-WRAP -->
+<div id="footer">
+  <div class="footer-content">
+    <p class="footer-left">&copy; 2013 Danny and Erik All Rights Reserved. </p>
+    <p class="footer-right">Holcomb Tree Experts 7105 Martin Mill Pike Knoxville, TN 37920 | (865) 577-3830</p>
+  </div>
+</div>
+</body>
+</html>
+<!-- END FOOTER -->
