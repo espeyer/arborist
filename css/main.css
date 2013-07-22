@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffec;
+  background-color: white; 
   font-family: FontAwesome, "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
 #content {
   /* background-color: #ffffd6; */
   padding: 6px;
-  margin-top: 80px;
+  margin-top: 25px;
   /* border-style: solid; */
   border-width: 1px; 
   overflow: hidden;
@@ -19,21 +19,36 @@ body {
 
 #contact-home {
   float: right;
-  padding; 8px;
-  position: absolute;
-  right: 100px;
-  top: 30px;
+  width: 25%;
+  padding-bottom: 40px;
 }
 
 #menu {
   margin: auto;
+  width: 44%;
   padding-bottom: 25px;
 }
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  display: inline;
+  padding: 12px;
+  font-size: 1.2em;
+}
+
+#menu a:link {text-decoration: none; color: black;}
+#menu a:visited {text-decoration: none; color: black;}
+#menu a:hover {text-decoration: none; color: #a63400;}
+#menu a:active {text-decoration: none; color: black;}
 
 .logo-wrap {
   width: 138px;
   float: left;
-  margin-right: 100px;
+  margin-right: 78px;
 }
 
 #slides {
@@ -49,6 +64,13 @@ p {
   font-size: 0.795em;
 }
 
+.box-container {
+  margin: auto;
+  margin-bottom: 80px;
+  width: 66%;
+  overflow: auto;
+  padding-top: 30px;
+}
 
 h1.box {
   font-size: 1.35em;
@@ -58,19 +80,22 @@ h1.box {
   padding-bottom: 5px;
 }
 
+h1.box a:link {text-decoration: none; color: black;}
+h1.box a:visited {text-decoration: none; color: black;}
+h1.box a:hover {text-decoration: none; color: #a63400;}
+h1.box a:active {text-decoration: none; color: black;}
+
 .left-box {
   float: left;
   width: 350px;
   text-align: center;
-  margin: 150px 0px 50px 150px;
   padding: 10px;
 }
 
 .right-box {
-  float: right;
+  float: left;
   width: 350px;
   text-align: center;
-  margin: 150px 150px 50px 0px;
   padding: 10px;
 }
 
@@ -90,6 +115,7 @@ h1.box {
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index: 11;
 }
 
 .footer-content {

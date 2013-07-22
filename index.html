@@ -31,7 +31,7 @@ $(document).ready(function() {
     $contentHome.show();
   });
 
-  $('#about').click(function() {
+  $('.about').click(function() {
     $contentHome.hide();
     $contentServices.hide();
     $contentPhotos.hide();
@@ -40,7 +40,7 @@ $(document).ready(function() {
     $contentAbout.show();
   });
 
-  $('#services').click(function() {
+  $('.services').click(function() {
     $contentHome.hide();
     $contentAbout.hide();
     $contentPhotos.hide();
@@ -49,7 +49,7 @@ $(document).ready(function() {
     $contentServices.show();
   });
 
-  $('#photos').click(function() {
+  $('.photos').click(function() {
     $contentHome.hide();
     $contentServices.hide();
     $contentAbout.hide();
@@ -58,7 +58,7 @@ $(document).ready(function() {
     $contentPhotos.show();
   });
 
-  $('#contact').click(function() {
+  $('.contact').click(function() {
     $contentHome.hide();
     $contentServices.hide();
     $contentPhotos.hide();
@@ -86,14 +86,19 @@ $(document).ready(function() {
 <div id="content-wrap" class="group">
   <div id="content" class="group">
 
-<p id="contact-home">Ph: (865) 577-3830</p>
+<div id="contact-home">
+  <p>Call us at: (865) 577-3830</p>
+</div>
+
+<div class="clearBoth"></div>
 
 <div id="menu">
   <ul>
-    <li><a id="about" href="#">ABOUT</a></li>
+    <li><a href="#" class="home">HOME</a></li>
+    <li><a class="about" href="#">ABOUT</a></li>
     <li><a id="services" href="#">SERVICES</a></li>
     <li><a id="photos" href="#">PHOTOS</a></li>
-    <li><a id="contact" href="#">CONTACT US</a></li>
+    <li><a class="contact" href="#">CONTACT US</a></li>
   </ul>
 </div>
 
@@ -105,20 +110,22 @@ $(document).ready(function() {
 </div>
 <div id="content-home">
   <div id="slides">
-    <img src="images/slide1.jpg">
     <img src="images/slide2.jpg">
+    <img src="images/slide1.jpg">
   </div>
 
   <div class="clearBoth"></div>
 
-  <div class="left-box">
-    <h1 class="box">ABOUT US</h1>
-    <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-  </div>
+  <div class="box-container">
+    <div class="left-box">
+      <h1 class="box"><a class="about" href="#">ABOUT US</a></h1>
+      <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
 
-  <div class="right-box">
-    <h1 class="box">CONTACT US</h1>
-    <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <div class="right-box">
+      <h1 class="box"><a class="contact" href="#">CONTACT US</a></h1>
+      <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
   </div>
 
 </div>
