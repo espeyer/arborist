@@ -7,8 +7,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/jquery.slides.min.js"></script>
@@ -73,9 +73,8 @@ $(document).ready(function() {
       $("#slides").slidesjs({
         width: 700,
         height: 393,
-        pagination: {
-          active: false
-        }
+        navigation: false,
+        pagination: false
       });
     });
   </script>
@@ -116,6 +115,8 @@ $(document).ready(function() {
   <div id="slides">
     <img src="images/slide2.jpg">
     <img src="images/slide1.jpg">
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
   </div>
 
   <div class="clearBoth"></div>
@@ -133,8 +134,13 @@ $(document).ready(function() {
     </div>
 
     <div class="right-box">
-      <h1 class="box"><a class="contact" href="#">CONTACT US</a></h1>
-      <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <h1 class="box"><a class="contact" href="#">Services</a></h1>
+      <ul class="icons-ul">
+        <li><i class="icon-li icon-ok"></i>Tree Trimming/Removal</li>
+        <li><i class="icon-li icon-ok"></i>Shrubbery Trimming</li>
+        <li><i class="icon-li icon-ok"></i>Turf Installation</li>
+        <li><i class="icon-li icon-ok"></i>Deep-Root Fertilization</li>
+        <li><i class="icon-li icon-ok"></i>Tree Installation</li>
     </div>
   </div>
 
