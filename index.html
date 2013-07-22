@@ -14,6 +14,61 @@
 <script src="js/jquery.slides.min.js"></script>
 
 <script>
+$(document).ready(function() {
+
+  var $contentHome = $('#content-home');
+  var $contentAbout = $('#content-about');
+  var $contentServices = $('#content-services');
+  var $contentPhotos = $('#content-photos');
+  var $contentContact = $('#content-contact');
+
+  $('.home').click(function() {
+    $contentAbout.hide();
+    $contentServices.hide();
+    $contentPhotos.hide();
+    $contentContact.hide();
+
+    $contentHome.show();
+  });
+
+  $('#about').click(function() {
+    $contentHome.hide();
+    $contentServices.hide();
+    $contentPhotos.hide();
+    $contentContact.hide();
+
+    $contentAbout.show();
+  });
+
+  $('#services').click(function() {
+    $contentHome.hide();
+    $contentAbout.hide();
+    $contentPhotos.hide();
+    $contentContact.hide();
+
+    $contentServices.show();
+  });
+
+  $('#photos').click(function() {
+    $contentHome.hide();
+    $contentServices.hide();
+    $contentAbout.hide();
+    $contentContact.hide();
+
+    $contentPhotos.show();
+  });
+
+  $('#contact').click(function() {
+    $contentHome.hide();
+    $contentServices.hide();
+    $contentPhotos.hide();
+    $contentAbout.hide();
+
+    $contentContact.show();
+  });
+});
+</script>
+<script>
     $(function(){
       $("#slides").slidesjs({
         width: 700,
@@ -35,35 +90,55 @@
 
 <div id="menu">
   <ul>
-    <li>ABOUT</li>
-    <li>SERVICES</li>
-    <li>PHOTOS</li>
-    <li>CONTACT US</li>
+    <li><a id="about" href="#">ABOUT</a></li>
+    <li><a id="services" href="#">SERVICES</a></li>
+    <li><a id="photos" href="#">PHOTOS</a></li>
+    <li><a id="contact" href="#">CONTACT US</a></li>
   </ul>
 </div>
 
 <div class="logo-wrap">
-  <div class="logo">
-    <a href="/"><img src="images/oak-logo.png" /></a>
+  <div class="logo home">
+    <a href="#"><img src="images/oak-logo.png" /></a>
   </div>
   <p class="italics" style="text-align: center;">Family owned and operated since 1969.</p>
 </div>
+<div id="content-home">
+  <div id="slides">
+    <img src="images/slide1.jpg">
+    <img src="images/slide2.jpg">
+  </div>
 
-<div id="slides">
-  <img src="images/slide1.jpg">
-  <img src="images/slide2.jpg">
+  <div class="clearBoth"></div>
+
+  <div class="left-box">
+    <h1 class="box">ABOUT US</h1>
+    <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+
+  <div class="right-box">
+    <h1 class="box">CONTACT US</h1>
+    <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+
 </div>
 
-<div class="clearBoth"></div>
-
-<div class="left-box">
-  <h1 class="box">ABOUT US</h1>
-  <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<div id="content-about">
+  <h1>ABOUT</h1
+</div>
+</div>
+<div id="content-services">
+  <h1>Services</h1>
+    <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </div>
 
-<div class="right-box">
-  <h1 class="box">CONTACT US</h1>
-  <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<div id="content-photos">
+  <h1>PHOTOS</h1
+</div>
+</div>
+
+<div id="content-contact">
+  <h1>CONTACT US</h1
 </div>
 
 <!-- BEGIN FOOTER -->
