@@ -24,8 +24,13 @@ body {
 }
 
 #menu {
-  margin: auto;
-  width: 44%;
+  text-align: center;
+}
+
+.menu-wrap {
+  float: left;
+  padding-left:216px;
+  width: 700px;
   padding-bottom: 25px;
 }
 
