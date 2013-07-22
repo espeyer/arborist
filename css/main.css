@@ -1,6 +1,6 @@
 body {
   background-color: white; 
-  font-family: FontAwesome, "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: proxima-nova, FontAwesome, "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 #content-wrap {
@@ -93,7 +93,6 @@ h1.box a:active {text-decoration: none; color: black;}
 .left-box {
   float: left;
   width: 350px;
-  text-align: center;
   padding: 10px;
 }
 
