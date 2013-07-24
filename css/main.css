@@ -56,6 +56,22 @@ a:active {text-decoration: none; color: black;}
   margin-right: 78px;
 }
 
+.accredidations-wrap {
+  float: left; 
+}
+
+.accredidations {
+  padding-top: 33px;
+}
+
+#tica-logo {
+  padding-left: 6px;  
+}
+
+#bbb-logo {
+  padding-top: 40px;
+  padding-left: 32px;
+}
 #slides {
   width: 700px;
 }
@@ -74,7 +90,6 @@ p {
   margin-bottom: 80px;
   width: 66%;
   overflow: auto;
-  padding-top: 30px;
 }
 
 h1.box {
@@ -88,12 +103,15 @@ h1.box {
 .left-box {
   float: left;
   width: 350px;
+  line-height: 22px;
   padding-top: 10px;
+  padding-right: 76px;
 }
 
 .right-box {
-  float: right;
-  padding: 10px;
+  float: left;
+  line-height: 22px;
+  padding-top: 10px;
 }
 
 .italics {
@@ -116,11 +134,12 @@ h1.box {
   bottom: 0;
   left: 0;
   z-index: 11;
+
 }
 
 .footer-content {
   text-align: center;
-  padding: 3px 3px;
+  padding: 3px 0px 3px;
   line-height: 200%;
   width: 75%;
   color: #ffffec;
