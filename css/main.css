@@ -54,6 +54,7 @@ a:active {text-decoration: none; color: black;}
   width: 138px;
   float: left;
   margin-right: 78px;
+  margin-bottom: -32px;
 }
 
 .accredidations-wrap {
@@ -86,26 +87,28 @@ p {
 }
 
 .box-container {
-  margin: auto;
-  margin-bottom: 80px;
-  width: 66%;
-  overflow: auto;
+  float: left;
+  padding-left:216px;
+  width: 700px;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 h1.box {
-  font-size: 1.35em;
+  font-size: 30px;
+  font-family: Georgia, serif;
   font-style: bold;
   text-align: center;
   line-height: 1.75em;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 .left-box {
-  float: left;
   width: 350px;
+  float: left;
   line-height: 22px;
   padding-top: 10px;
-  padding-right: 76px;
+  padding-right: 75px;
 }
 
 .right-box {
@@ -138,10 +141,10 @@ h1.box {
 }
 
 .footer-content {
+  padding-top: 13px;
+  padding-bottom: 13px;
   text-align: center;
-  padding: 3px 0px 3px;
-  line-height: 200%;
-  width: 75%;
+  font-size: 12px;
   color: #ffffec;
   margin: auto;
 }
@@ -156,3 +159,13 @@ p.footer-right {
   padding-right: 14px;
 }
 
+.footer-content ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content ul li {
+  display: inline;
+  padding: 143px;
+  padding-top: 0;
+}
