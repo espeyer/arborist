@@ -22,10 +22,19 @@ a:active {text-decoration: none; color: black;}
   overflow: hidden;
 }
 
-#contact-home {
-  float: right;
-  width: 25%;
-  padding-bottom: 40px;
+#slogan {
+  font-family: Georgia, serif;
+  color: #64644A;
+  font-size: 24px;
+  text-align: center;
+  float: left;
+  padding-left: 373px;
+  font-variant: small-caps;
+}
+
+#slogan-mod {
+  font-size: 25px;
+  font-weight: bold;
 }
 
 #menu {
@@ -34,7 +43,7 @@ a:active {text-decoration: none; color: black;}
 
 .menu-wrap {
   float: left;
-  padding-left:216px;
+  padding-left:239px;
   width: 700px;
   padding-bottom: 25px;
 }
@@ -55,6 +64,7 @@ a:active {text-decoration: none; color: black;}
   float: left;
   margin-right: 78px;
   margin-bottom: -32px;
+  margin-top: -81px;
 }
 
 .accredidations-wrap {
@@ -62,6 +72,7 @@ a:active {text-decoration: none; color: black;}
 }
 
 .accredidations {
+  padding-left: 29px;
   padding-top: 33px;
 }
 
@@ -75,6 +86,7 @@ a:active {text-decoration: none; color: black;}
 }
 #slides {
   width: 700px;
+  padding-left: 23px;
 }
 
 
@@ -88,7 +100,7 @@ p {
 
 .box-container {
   float: left;
-  padding-left:216px;
+  padding-left:239px;
   width: 700px;
   margin-bottom: 30px;
   padding-bottom: 25px;
@@ -117,7 +129,11 @@ h1.box {
   padding-top: 10px;
 }
 
-.italics {
+#logo-text {
+  width: 188px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Georgia, serif;
   font-style: oblique;
 }
 
@@ -128,6 +144,43 @@ h1.box {
 #slides .slidesjs-container {
   margin-bottom: 10px;
 }  
+
+.line-wrap {
+  width: 640px;
+  padding-left: 269px;
+  text-align: center;
+}
+
+hr.line-wrap {
+  margin-top: 18px;
+  margin-left: 303px;
+  margin-bottom: 18px;
+}
+
+.phone-banner-wrap {
+  text-align: center; 
+  margin-top: -17px;
+  margin-bottom: -85px;
+  float: right;
+}
+
+.phone-banner {
+  font-family: Georgia, serif;
+  color: #64644A;
+  font-size: 35px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.time {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.phonenumber {
+  font-size: 24px;
+  font-family: Arial, sans-serif; 
+}
 
 #footer {
   background-color: #7a7a7a;
