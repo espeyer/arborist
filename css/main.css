@@ -1,6 +1,6 @@
 body {
   background-color: white; 
-  font-family: proxima-nova, FontAwesome, "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 a:link {text-decoration: none; color: black;}
@@ -23,13 +23,12 @@ a:active {text-decoration: none; color: black;}
 }
 
 #slogan {
-  font-family: Georgia, serif;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
   color: #64644A;
   font-size: 24px;
   text-align: center;
   float: left;
-  padding-left: 373px;
-  font-variant: small-caps;
+  padding-left: 382px;
 }
 
 #slogan-mod {
@@ -54,6 +53,7 @@ a:active {text-decoration: none; color: black;}
 }
 
 #menu ul li {
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   display: inline;
   padding: 12px;
   font-size: 1.2em;
@@ -100,7 +100,7 @@ p {
 
 .box-container {
   float: left;
-  padding-left:239px;
+  padding-left:265px;
   width: 700px;
   margin-bottom: 30px;
   padding-bottom: 25px;
@@ -108,7 +108,7 @@ p {
 
 h1.box {
   font-size: 30px;
-  font-family: Georgia, serif;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
   font-style: bold;
   text-align: center;
   line-height: 1.75em;
@@ -117,6 +117,7 @@ h1.box {
 
 .left-box {
   width: 350px;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   float: left;
   line-height: 22px;
   padding-top: 10px;
@@ -125,6 +126,7 @@ h1.box {
 
 .right-box {
   float: left;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   line-height: 22px;
   padding-top: 10px;
 }
@@ -147,6 +149,8 @@ h1.box {
 
 .line-wrap {
   width: 640px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   padding-left: 269px;
   text-align: center;
 }
@@ -165,11 +169,10 @@ hr.line-wrap {
 }
 
 .phone-banner {
-  font-family: Georgia, serif;
-  color: #64644A;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
   font-size: 35px;
   font-weight: bold;
-  font-variant: small-caps;
+  color: #64644A;
 }
 
 .time {
@@ -179,7 +182,8 @@ hr.line-wrap {
 
 .phonenumber {
   font-size: 24px;
-  font-family: Arial, sans-serif; 
+  color: #a63400;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; 
 }
 
 #footer {
