@@ -8,12 +8,18 @@ a:visited {text-decoration: none; color: black;}
 a:hover {text-decoration: none; color: #a63400;}
 a:active {text-decoration: none; color: black;}
 
-#content-wrap {
-  margin: auto;
-  width: 90%;
+.center-wrap {
+  margin-left: 50%;
+  position: relative;
+  margin: 0 auto;
 }
 
-#content {
+.content-wrap {
+  width: 71em;
+  margin: 0 auto;
+}
+
+.content {
   /* background-color: #ffffd6; */
   padding: 6px;
   margin-top: 25px;
@@ -165,7 +171,8 @@ hr.line-wrap {
   text-align: center; 
   margin-top: -17px;
   margin-bottom: -85px;
-  float: right;
+  padding-left: 11px;
+  float: left;
 }
 
 .phone-banner {

@@ -8,10 +8,13 @@
 
 <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/lightbox.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/jquery.slides.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
 
 <script>
 $(document).ready(function() {
@@ -79,11 +82,22 @@ $(document).ready(function() {
     });
   </script>
 
+<!-- <script>
+  $(document).ready(function() {
+      var float_width = $('#center-wrap').width();
+      var left_spacing = float_width / 2;
+
+      $('#center-wrap').css('left', '-' + left_spacing);
+  }); 
+</script> -->
+
 </head>
 
+<div class="center-wrap">
+
 <body>
-<div id="content-wrap" class="group">
-  <div id="content" class="group">
+<div class="content-wrap" class="group">
+  <div class="content" class="group">
 
 <div id="slogan">Let a 
   <span id="slogan-mod">PROFESSIONAL</span>
@@ -182,14 +196,24 @@ $(document).ready(function() {
 </div>
 
 <div id="content-photos">
-  <h1>PHOTOS</h1
+  <h1>PHOTOS</h1>
+  <ul>
+  <?php
+    $imagesDir = 'images/pictures/';
+    $files = glob($imagesDir . "*.{png,jpg,jpeg}", GLOB_BRACE);
+    foreach ($files as $file)
+    {
+      echo "<li><a href=\"" . $file . "\" data-lightbox=\"holcomb\"></a></li>";
+    }
+  ?>
+  </ul>
 </div>
 </div>
 
 <div id="content-contact">
   <h1>CONTACT US</h1
 </div>
-
+</div>
 <!-- BEGIN FOOTER -->
   </div> <!-- END CONTENT> -->
 </div> <!-- END CONTENT-WRAP -->
