@@ -124,7 +124,7 @@ $(document).ready(function() {
 
   <div class="phone-banner-wrap">
     <div class="phone-banner">
-      CALL US<br />
+      CALL US!<br />
       <span class="time">24/7</span><br />
       <span class="phonenumber">(865) 577-3830</span>       
     </div>
@@ -151,6 +151,7 @@ $(document).ready(function() {
 </div>
 <div id="content-home">
   <div id="slides">
+    <img src="images/forest-wallpaper-1920x1080-1024x576_800x450.jpg">
     <img src="images/Before1.jpg">
     <img src="images/After1.jpg">
       <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
@@ -203,10 +204,11 @@ $(document).ready(function() {
     $files = glob($imagesDir . "*.{png,jpg,jpeg}", GLOB_BRACE);
     foreach ($files as $file)
     {
-      echo "<li><a href=\"" . $file . "\" data-lightbox=\"holcomb\"></a></li>";
+      echo "<li><a href=\"" . $file . "\" data-lightbox=\"holcomb\"><img src=\"" . $file . "\" /></a></li>";
     }
   ?>
   </ul>
+</div>
 </div>
 </div>
 
@@ -220,8 +222,8 @@ $(document).ready(function() {
 <div id="footer">
   <div class="footer-content">
     <ul>
-      <li>&copy; 2013 <strong>Danny and Erik</strong> All Rights Reserved.</li>
-      <li><strong>Holcomb Tree Experts</strong> 7105 Martin Mill Pike Knoxville, TN 37920 | (865) 577-3830</li>
+      <li>&copy; 2013 <span class="bold">Danny and Erik</span> All Rights Reserved.</li>
+      <li><span class="bold">Holcomb Tree Experts</span> 7105 Martin Mill Pike Knoxville, TN 37920 | (865) 577-3830</li>
     </ul>
   </div>
 </div>
