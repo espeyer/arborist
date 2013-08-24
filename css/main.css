@@ -146,9 +146,6 @@ h1.box {
   font-style: oblique;
 }
 
-#content-services, #content-about, #content-photos, #content-contact {
-  display: none;
-}
 
 #content-about {
   width: 78%;

@@ -17,20 +17,8 @@
 <script src="js/lightbox-2.6.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
 
-<script>
-    $(function(){
-      $("#slides").slidesjs({
-        width: 700,
-        height: 393,
-        navigation: false,
-        pagination: false
-      });
-    });
-  </script>
 
 </head>
-
-<div class="center-wrap">
 
 <body>
 <div class="content-wrap" class="group">

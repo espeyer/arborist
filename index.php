@@ -30,7 +30,6 @@
 
 </head>
 
-<div class="center-wrap">
 
 <body>
 <div class="content-wrap" class="group">
@@ -125,50 +124,6 @@
   </div>
 
 </div>
-
-<div id="content-about">
-  <h1>"Hi, my name is Kent Holcomb, owner of Holcomb Tree Experts.</h1>
-    <p><br />
-    I was born in Knoxville in 1965.  My father, Deal Holcomb, started our business in 1969.  His goal was to create an honest and professional tree service business.  He taught me to be fair and honest.  That is the way we have done business for 44 years.  I look forward to working with you and meeting all your tree care needs.  Please give me a call and allow us to assist you any way we can.<br /><br />
-     
-     <b>From large to small, we do it all!</b>"
-    </p>
-</div>
-
-<div class="services-wrap">
-  <div id="content-services">
-    <ul class="icons-ul">
-      <li><i class="icon-li icon-ok"></i>Tree Trimming/Removal</li>
-      <li><i class="icon-li icon-ok"></i>Shrubbery Trimming</li>
-      <li><i class="icon-li icon-ok"></i>Turf Installation</li>
-      <li><i class="icon-li icon-ok"></i>Deep-Root Fertilization</li>
-      <li><i class="icon-li icon-ok"></i>Tree Installation</li>
-  </div>
-</div>
-</div>
-</div>
-
-<div id="content-photos">
-  <h1>PHOTOS</h1>
-  <ul>
-  <?php
-    $imagesDir = 'images/pictures/';
-    $files = glob($imagesDir . "*.{png,jpg,jpeg}", GLOB_BRACE);
-    foreach ($files as $file)
-    {
-      echo "<li><a href=\"" . $file . "\" data-lightbox=\"holcomb\"><img src=\"" . $file . "\" /></a></li>";
-    }
-  ?>
-  </ul>
-</div>
-</div>
-</div>
-
-<div id="content-contact">
-  <h1>CONTACT US</h1
-</div>
-</div>
-<!-- BEGIN FOOTER -->
   </div> <!-- END CONTENT> -->
 </div> <!-- END CONTENT-WRAP -->
 <div id="footer">
