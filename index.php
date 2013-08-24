@@ -10,6 +10,7 @@
 <link href="css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="css/lightbox.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="images/oak-logo.png" rel="shortcut icon" />
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/jquery.slides.min.js"></script>
@@ -126,7 +127,8 @@ $(document).ready(function() {
     <div class="phone-banner">
       CALL US!<br />
       <span class="time">24/7</span><br />
-      <span class="phonenumber">(865) 577-3830</span>       
+      <span class="phonenumber">(865) 577-3830</span><br />
+      <div class="licensed">LICENSED<br /><hr style="width:34%;" />BONDED<br /><hr style="width:34%;" />INSURED</div>
     </div>
   </div>
 
@@ -149,6 +151,7 @@ $(document).ready(function() {
     </div>
   </div>
 </div>
+
 <div id="content-home">
   <div id="slides">
     <img src="images/forest-wallpaper-1920x1080-1024x576_800x450.jpg">
@@ -169,7 +172,7 @@ $(document).ready(function() {
         <li><i class="icon-li icon-chevron-sign-right"></i>Established in 1969</li>
         <li><i class="icon-li icon-chevron-sign-right"></i>Locally owned and operated by Kent Holcomb</li>
         <li><i class="icon-li icon-chevron-sign-right"></i>Workers' Compensation</li>
-        <li><i class="icon-li icon-chevron-sign-right"></i>Licensed, bonded and insured</li>
+        <li><i class="icon-li icon-chevron-sign-right"></i>Licensed, Bonded &amp; Insured</li>
         <li><i class="icon-li icon-chevron-sign-right"></i>Phones answered 24 hours a day/7 days a week for emergency services</li>
       </ul>
     </div>
@@ -188,12 +191,25 @@ $(document).ready(function() {
 </div>
 
 <div id="content-about">
-  <h1>ABOUT</h1
+  <h1>"Hi, my name is Kent Holcomb, owner of Holcomb Tree Experts.</h1>
+    <p><br />
+    I was born in Knoxville in 1965.  My father, Deal Holcomb, started our business in 1969.  His goal was to create an honest and professional tree service business.  He taught me to be fair and honest.  That is the way we have done business for 44 years.  I look forward to working with you and meeting all your tree care needs.  Please give me a call and allow us to assist you any way we can.<br /><br />
+     
+     <b>From large to small, we do it all!</b>"
+    </p>
+</div>
+
+<div class="services-wrap">
+  <div id="content-services">
+    <ul class="icons-ul">
+      <li><i class="icon-li icon-ok"></i>Tree Trimming/Removal</li>
+      <li><i class="icon-li icon-ok"></i>Shrubbery Trimming</li>
+      <li><i class="icon-li icon-ok"></i>Turf Installation</li>
+      <li><i class="icon-li icon-ok"></i>Deep-Root Fertilization</li>
+      <li><i class="icon-li icon-ok"></i>Tree Installation</li>
+  </div>
 </div>
 </div>
-<div id="content-services">
-  <h1>Services</h1>
-    <p>Hello hello hello Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </div>
 
 <div id="content-photos">
@@ -222,7 +238,7 @@ $(document).ready(function() {
 <div id="footer">
   <div class="footer-content">
     <ul>
-      <li>&copy; 2013 <span class="bold">Danny and Erik</span> All Rights Reserved.</li>
+      <li>&copy; 2013 <span class="bold"><a href="mailto:danny.lusk@gmail.com" target="blank">Danny and Erik</a></span> All Rights Reserved.</li>
       <li><span class="bold">Holcomb Tree Experts</span> 7105 Martin Mill Pike Knoxville, TN 37920 | (865) 577-3830</li>
     </ul>
   </div>

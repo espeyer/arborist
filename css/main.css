@@ -12,11 +12,12 @@ a:active {text-decoration: none; color: black;}
 }
 
 .content-wrap {
-  width: 86%;
+  width: 95%;
   margin: 0 auto;
 }
 
 .content {
+  min-width: 1200px;
   /* background-color: #ffffd6; */
   margin-top: 25px;
   /* border-style: solid; */
@@ -149,6 +150,33 @@ h1.box {
   display: none;
 }
 
+#content-about {
+  width: 78%;
+  text-align: justify;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#content-about h1 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#content-about p {
+  font-size: 17px;
+  line-height: 20px; 
+}
+
+.services-wrap {
+  padding-top: 48px;
+  padding-left: 226px; 
+}
+#content-services {
+  width: 78%;
+  font-size: 31px;
+  text-align: justify;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
 #slides .slidesjs-container {
   margin-bottom: 10px;
 }  
@@ -170,7 +198,7 @@ hr.line-wrap {
 .phone-banner-wrap {
   text-align: center;
   margin-top: -15px;
-  margin-bottom: -85px;
+  margin-bottom: -324px;
   margin-left: 14px;
   float: left;
 }
@@ -192,6 +220,14 @@ hr.line-wrap {
   font-size: 33px;
   color: #a63400;
   font-family: "Trebuchet MS", Helvetica, sans-serif; 
+}
+
+.licensed {
+  font-weight: lighter;
+  font-size: 35px;
+  color: #646517;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  padding-top: 62px;
 }
 
 #footer {
@@ -231,7 +267,8 @@ p.footer-right {
 
 .footer-content ul li {
   display: inline;
-  padding: 143px;
+  padding-left: 143px;
+  padding-right: 143px;
   padding-top: 0;
-  padding-top: 0;
+  padding-bottom: 0;
 }
