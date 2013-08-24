@@ -18,61 +18,6 @@
 <script src="js/modernizr.custom.js"></script>
 
 <script>
-$(document).ready(function() {
-
-  var $contentHome = $('#content-home');
-  var $contentAbout = $('#content-about');
-  var $contentServices = $('#content-services');
-  var $contentPhotos = $('#content-photos');
-  var $contentContact = $('#content-contact');
-
-  $('.home').click(function() {
-    $contentAbout.hide();
-    $contentServices.hide();
-    $contentPhotos.hide();
-    $contentContact.hide();
-
-    $contentHome.show();
-  });
-
-  $('.about').click(function() {
-    $contentHome.hide();
-    $contentServices.hide();
-    $contentPhotos.hide();
-    $contentContact.hide();
-
-    $contentAbout.show();
-  });
-
-  $('.services').click(function() {
-    $contentHome.hide();
-    $contentAbout.hide();
-    $contentPhotos.hide();
-    $contentContact.hide();
-
-    $contentServices.show();
-  });
-
-  $('.photos').click(function() {
-    $contentHome.hide();
-    $contentServices.hide();
-    $contentAbout.hide();
-    $contentContact.hide();
-
-    $contentPhotos.show();
-  });
-
-  $('.contact').click(function() {
-    $contentHome.hide();
-    $contentServices.hide();
-    $contentPhotos.hide();
-    $contentAbout.hide();
-
-    $contentContact.show();
-  });
-});
-</script>
-<script>
     $(function(){
       $("#slides").slidesjs({
         width: 700,
@@ -82,15 +27,6 @@ $(document).ready(function() {
       });
     });
   </script>
-
-<!-- <script>
-  $(document).ready(function() {
-      var float_width = $('#center-wrap').width();
-      var left_spacing = float_width / 2;
-
-      $('#center-wrap').css('left', '-' + left_spacing);
-  }); 
-</script> -->
 
 </head>
 
@@ -114,11 +50,11 @@ $(document).ready(function() {
 <div class="menu-wrap">
   <div id="menu">
     <ul>
-      <li><a href="#" class="home">HOME</a></li>
-      <li><a class="about" href="#">ABOUT</a></li>
-      <li><a class="services" href="#">SERVICES</a></li>
-      <li><a class="photos" href="#">PHOTOS</a></li>
-      <li><a class="contact" href="#">CONTACT US</a></li>
+      <li><a href="index.php" class="home">HOME</a></li>
+      <li><a class="about" href="about.php">ABOUT</a></li>
+      <li><a class="services" href="services.php">SERVICES</a></li>
+      <li><a class="photos" href="photos.php">PHOTOS</a></li>
+      <li><a class="contact" href="contact.php">CONTACT US</a></li>
     </ul>
   </div>
 </div>
@@ -136,7 +72,7 @@ $(document).ready(function() {
 
 <div class="logo-wrap">
   <div class="logo home">
-    <a href="#"><img src="images/oak-logo.png" /></a>
+    <a href="index.php"><img src="images/oak-logo.png" /></a>
     
   </div>
   <p id="logo-text">Family owned and operated since 1969.</p>
@@ -167,7 +103,7 @@ $(document).ready(function() {
 
   <div class="box-container">
     <div class="left-box">
-      <h1 class="box"><a class="about" href="#">ABOUT US</a></h1>
+      <h1 class="box"><a class="about" href="about.php">ABOUT US</a></h1>
       <ul class="icons-ul">
         <li><i class="icon-li icon-chevron-sign-right"></i>Established in 1969</li>
         <li><i class="icon-li icon-chevron-sign-right"></i>Locally owned and operated by Kent Holcomb</li>
@@ -178,7 +114,7 @@ $(document).ready(function() {
     </div>
 
     <div class="right-box">
-      <h1 class="box"><a class="contact" href="#">SERVICES</a></h1>
+      <h1 class="box"><a class="contact" href="services.php">SERVICES</a></h1>
       <ul class="icons-ul">
         <li><i class="icon-li icon-ok"></i>Tree Trimming/Removal</li>
         <li><i class="icon-li icon-ok"></i>Shrubbery Trimming</li>
