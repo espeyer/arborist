@@ -66,6 +66,14 @@ a:active {text-decoration: none; color: black;}
   width: 138px;
   float: left;
   margin-right: 78px;
+  margin-bottom: -16px;
+  margin-top: -81px;
+}
+
+.photos-logo-wrap {
+  width: 138px;
+  float: left;
+  margin-right: 78px;
   margin-bottom: 348px;
   margin-top: -81px;
 }

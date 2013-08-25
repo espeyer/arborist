@@ -59,7 +59,7 @@
 
 <div class="clearBoth"></div>
 
-<div class="logo-wrap">
+<div class="photos-logo-wrap">
   <div class="logo home">
     <a href="index.php"><img src="images/oak-logo.png" /></a>
     
