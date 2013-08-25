@@ -76,7 +76,7 @@
   </div>
 </div>
 
-<div id="content-home">
+<div id="content-about">
   <h1>"Hi, my name is Kent Holcomb, owner of Holcomb Tree Experts.</h1>
     <p><br />
     I was born in Knoxville in 1965.  My father, Deal Holcomb, started our business in 1969.  His goal was to create an honest and professional tree service business.  He taught me to be fair and honest.  That is the way we have done business for 44 years.  I look forward to working with you and meeting all your tree care needs.  Please give me a call and allow us to assist you any way we can.<br /><br />

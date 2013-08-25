@@ -66,7 +66,7 @@ a:active {text-decoration: none; color: black;}
   width: 138px;
   float: left;
   margin-right: 78px;
-  margin-bottom: -32px;
+  margin-bottom: 348px;
   margin-top: -81px;
 }
 
@@ -268,4 +268,26 @@ p.footer-right {
   padding-right: 143px;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+div.thumbnail {
+  margin:-1px;
+  height:auto;
+  width:auto;
+  float:left;
+}
+
+div.thumbnail img {
+  display:inline;
+  margin:3px;
+}
+
+.photo-wrap {
+  width: 975px;  
+}
+.content-photos {
+}
+
+#content-photos .thumbnail {
+  padding 5px;
 }
