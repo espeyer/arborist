@@ -17,6 +17,7 @@
 <script src="js/lightbox-2.6.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
 
+<title>Holcomb Tree Experts - Services</title>
 
 </head>
 
@@ -86,6 +87,8 @@
       <li><i class="icon-li icon-ok"></i>Turf Installation</li>
       <li><i class="icon-li icon-ok"></i>Deep-Root Fertilization</li>
       <li><i class="icon-li icon-ok"></i>Tree Installation</li>
+  </div>
+  <div id="services-photo-wrap"><img src=images/pictures/TruckNest_640x480.JPG />
   </div>
 </div>
 <!-- BEGIN FOOTER -->

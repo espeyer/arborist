@@ -17,7 +17,7 @@
 <script src="js/lightbox-2.6.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
 
-<title>Holcomb Tree Experts | Your source for all your tree care needs</title>
+<title>Holcomb Tree Experts | Professional Tree Care</title>
 
 <script>
     $(function(){

@@ -156,12 +156,13 @@ h1.box {
 
 
 #content-about {
-  width: 78%;
+  width: 930px;
   text-align: justify;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 #content-about h1 {
+  padding-top: 28px;
   font-weight: bolder;
   font-size: 20px;
 }
@@ -171,15 +172,48 @@ h1.box {
   line-height: 20px; 
 }
 
-.services-wrap {
-  padding-top: 48px;
-  padding-left: 226px; 
+#content-about b {
+  font-weight: bolder;
 }
+
+#owner-photo-wrap {
+ border-radius: 21px;
+ -moz-border-radius: 21px;
+ margin-top: 10px;
+ margin-right: 29px;
+ margin-bottom: 10px;
+ float: left;
+ overflow: hidden;
+}
+
+#crew-photo-wrap {
+ overflow: hidden;
+ float: left;
+ margin-top: 22px;
+ margin-bottom: 60px;
+ margin-left: 66px;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+}
+.services-wrap {
+}
+
 #content-services {
+  padding-left: 370px;
+  padding-bottom: 30px;
   width: 78%;
   font-size: 31px;
   text-align: justify;
   font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#services-photo-wrap {
+  padding-bottom: 50px;
+}
+
+#content-contact p {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
 }
 
 #slides .slidesjs-container {

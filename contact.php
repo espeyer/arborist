@@ -17,6 +17,7 @@
 <script src="js/lightbox-2.6.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
 
+<title>Holcomb Tree Experts - Contact Us</title>
 
 </head>
 
@@ -76,7 +77,8 @@
   </div>
 </div>
 
-<div id="content-home">
+<div id="content-contact">
+  <p>Holcomb Tree Experts<br />7105 Martin Mill Pike<br />Knoxville, TN 37920<br />(865) 577-3830</p>
 </div>
 <!-- BEGIN FOOTER -->
   </div> <!-- END CONTENT> -->

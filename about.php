@@ -16,6 +16,9 @@
 <script src="js/jquery.slides.min.js"></script>
 <script src="js/lightbox-2.6.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
+
+<title>Holcomb Tree Experts - About</title>
+
 </head>
 
 <body>
@@ -77,12 +80,17 @@
 </div>
 
 <div id="content-about">
-  <h1>"Hi, my name is Kent Holcomb, owner of Holcomb Tree Experts.</h1>
+  <div id="owner-photo-wrap"><img src="images/pictures/KentPic_206x155.jpg" />
+  </div>
+  <h1>"Hi, I am Kent Holcomb of Holcomb Tree Experts.</h1>
     <p><br />
     I was born in Knoxville in 1965.  My father, Deal Holcomb, started our business in 1969.  His goal was to create an honest and professional tree service business.  He taught me to be fair and honest.  That is the way we have done business for 44 years.  I look forward to working with you and meeting all your tree care needs.  Please give me a call and allow us to assist you any way we can.<br /><br />
      
-     <b>From large to small, we do it all!</b>"
+     <b>From large to small, we do it all!</b>"<br /><br />
+     <h1 style="text-align:center;">Meet our crew!</h1>
   </p>
+  <div id="crew-photo-wrap"><img src="images/pictures/Crew_600x450.JPG" />
+  </div>
 </div>
 <!-- BEGIN FOOTER -->
   </div> <!-- END CONTENT> -->
