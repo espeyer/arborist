@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="description" content="" />
+<meta name="description" content="Holcomb Tree Experts is Knoxville's premier choice for tree trimming, removal, and installation, deep-root fertilzation, and turf installation.  Locally owned and operated for 44 years, we are experienced in providing quality tree care and service at a fair price." />
 <meta name="keywords" content="" />
 <meta name="author" content="" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />

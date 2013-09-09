@@ -17,7 +17,7 @@
 <script src="js/lightbox-2.6.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
 
-<title>Holcomb Tree Experts - Photos</title>
+<title>Photos - Holcomb Tree Experts</title>
 
 </head>
 
