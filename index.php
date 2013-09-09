@@ -91,7 +91,8 @@
 
 <div id="content-home">
   <div id="slides">
-    <img src="images/forest-wallpaper-1920x1080-1024x576_800x450.jpg">
+    <img src="images/lake.jpg">
+    <img src="images/Truck.jpg">
     <img src="images/Before1.jpg">
     <img src="images/After1.jpg">
       <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
